@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: none;
+    z-index: -1; /* Coloca o vídeo atrás de outros elementos */
+  }
+
+#logo-img {
+    width: 190px;
+    display: block;
+    margin: 5px auto 0
+}
+
+main {
+    width: 375px;
+    margin: 0 auto 20px;
+    background-color: rgba(05, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px solid #772FD3;
+}
+
+select, input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+    border: 1px solid #BBBBBB;
+    margin-top: 6px;
+    cursor: pointer;
+    opacity: 0.9;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 23px;
+    border: none;
+    background-color: rgba(119, 47, 2110, 0.5);
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #7B68EE;
+    margin: 30px 0 2px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moeda-nome {
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.moeda-valor {
+    font-weight: 700;
+    font-size: 20px;
+    color: #7B68EE;
+}
+
+#seta-img {
+    margin: 17px 0;
+}
+
+select:hover {
+    opacity: 0.8;
+}
+
+input:hover {
+    opacity: 0.8;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #7B68EE;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
