@@ -126,3 +126,50 @@ a:hover {
     color: #7B68EE;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 800px) {
+    #logo-img {
+        width: 115px;
+        margin: 25px auto 30px;    
+    }
+
+    main {
+        width: 285px;
+        padding: 16px;
+    }
+
+    select, input {
+        height: 30px;
+        padding: 5px;
+        margin-bottom: 15px;
+        margin-top: 7px;
+    }
+
+    button {
+        height: 32px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .moeda-valor {
+        font-size: 16px;
+    }
+
+    .moeda-nome {
+        font-size: 12px;
+    }
+
+    #seta-img {
+        width: 20px;
+        margin: 10px 0;
+    }
+
+    #imagem-convertida1, #imagem-convertida2 {
+        width: 50px;
+    }
+
+    section {
+        margin: 25px 0 2px 0;
+        padding: 14px;
+    }
+}
